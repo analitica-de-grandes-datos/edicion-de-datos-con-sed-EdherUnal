@@ -47,4 +47,4 @@ sed 's/,/./g' data.csv \
 | sed 's/,,/\,\\N,/g' \
 | sed 's/[a-z]/\U&/g'\
 | sed 's/,N/,\\N/g' \
-| sed 's/,[^M]$/,\\N/g' \
+| sed 's/,[^M]$/,\\N/g'
